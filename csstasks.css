@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border-left: 1px solid #bdbdbd;
+    border-top: 1px solid #bdbdbd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    
+}
+
+.item {
+    
+    width: 9vw;
+    height: 9vw;
+    margin: .45vw;
+    background-color:#efefef;
+
+}
